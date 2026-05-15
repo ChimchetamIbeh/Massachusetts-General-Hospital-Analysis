@@ -46,8 +46,8 @@ Key metrics analyzed include:
 
 ## 10. Data Visualization
 ![Dashboard Overview](Overview.png)
-![Uploading image.png…](Re-Admission and Length of Stay.png)
-![Uploading image.png…](Operational Cost.png)
+![Uploading image.png…](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/e7ebd8ae5a6b69cb4778d25be47131221857ad50/Operational%20Cost.png)
+![Uploading image.png…](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/e7ebd8ae5a6b69cb4778d25be47131221857ad50/Re-Admission%20and%20Length%20of%20Stay.png)
 - **Re-admissions by Department:** A bar chart showing that Ambulatory and Urgent Care have the highest re-admission counts.
 - **Total Cost per Department:** A breakdown of revenue generated across different hospital wings.
 - **Payer Distribution:** A pie chart showing the share of claims handled by Medicare, Medicaid, and private payers.
@@ -66,5 +66,5 @@ Key metrics analyzed include:
 The insights derived from the Massachusetts General Hospital dataset provide a roadmap for optimizing department-specific resources and improving patient throughput. By addressing re-admission trends, the hospital can enhance both patient satisfaction and financial stability.
 
 ## 14. Contact Information
-- **LinkedIn:** [Insert Your LinkedIn Link Here]
-- **Email:** [Insert Your Email Here]
+- **LinkedIn:** [https://www.linkedin.com/in/ibeh-chimchetam-516493299]
+- **Email:** [ibehchimchetam@gmail.com]
