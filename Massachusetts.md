@@ -45,7 +45,8 @@ Key metrics analyzed include:
 - **Departmental Performance:** Encounter counts by class (Ambulatory, Emergency, Inpatient, Urgent Care, Wellness).
 
 ## 10. Data Visualization
-**
+![Uploading image.png…]()
+
 - **Re-admissions by Department:** A bar chart showing that Ambulatory and Urgent Care have the highest re-admission counts.
 - **Total Cost per Department:** A breakdown of revenue generated across different hospital wings.
 - **Payer Distribution:** A pie chart showing the share of claims handled by Medicare, Medicaid, and private payers.
