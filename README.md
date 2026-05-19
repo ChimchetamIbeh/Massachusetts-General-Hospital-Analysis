@@ -58,7 +58,7 @@ The analysis is based on the **Massachusetts General Hospital Dataset**, consist
 - **Average Patient Age:** 72 years (Range: 26 – 104).
 - **Average Length of Stay (LOS):**  7 hours.
 - **Total base encounter cost:**  $3,240,421.
-- **Insurance Coverage:**68.42% of encounters were insured while, 31.58% of encounters were "Uninsured."
+- **Insurance Coverage:** 68.42% of encounters were insured while, 31.58% of encounters were "Uninsured."
 
 ## Key Insights
 -	 Patients with chronic conditions and acute cardiac issues show the strongest correlation with 30-day readmissions.
