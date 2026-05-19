@@ -61,10 +61,11 @@ The analysis is based on the **Massachusetts General Hospital Dataset**, consist
 - **Insurance Coverage:**68.42% of encounters were insured while, 31.58% of encounters were "Uninsured."
 
 ## Key Insights
--  A 30-Day Re-admission Rate 0f 62.51% (encounters that occurred within 30 days of a previous discharge).
+-	 Patients with chronic conditions and acute cardiac issues show the strongest correlation with 30-day readmissions.
+-  62.51% of the encounters had a 30-Day Re-admission Rate (encounters that occurred within 30 days of a previous discharge).
 -  Mortality Rate was 15.81%, indicating a high-acuity patient population (patients with severe conditions).
 -  Patients aged 65+ had the highest re-admission rate (64%), representing the hospital’s most vulnerable and resource-intensive segment.
--  Uninsured encounters showed shorter stay durations.
+-  Uninsured patients represent a high financial risk, exhibiting the highest readmission rate at 77.1%.
 -  Total claim cost was $101,514,376 which was more than 10x higher the base encounter costs.
 -  Total payer coverage was $31,097,507, which left a significant uncovered gap of approximately $70 million.
 
