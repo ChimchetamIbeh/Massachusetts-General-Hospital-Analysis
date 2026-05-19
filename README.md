@@ -26,7 +26,6 @@ The analysis is based on the **Massachusetts General Hospital Dataset**, consist
 - **Encounters:** Details on hospital visits (Start/Stop times, Encounter Class, Total Claim Cost, Payer ID).
 - **Payers:** Information on insurance providers (Medicare, Medicaid, Dual Eligible, etc.).
 - **Procedures:** Data on medical procedures performed and their associated costs.
-- **Pivot Tables:** Aggregated views of re-admission distributions and costs per department.
 
 ## Tools Used
 - **Microsoft Excel:** Used for initial data exploration, cleaning, and the creation of Pivot Tables and Charts.
@@ -34,18 +33,15 @@ The analysis is based on the **Massachusetts General Hospital Dataset**, consist
 ## Methodology
 - **Standardization:** Ensured "Gender" and "Race" fields followed a consistent naming convention.
 - **Date Handling:** Converted Start/Stop times from onverted ISO 8601 format into standard Date/Time formats.
-- **Missing Values:** Handled empty fields by labeling them appropriately('Unspecified,etc)
-- **Integrity:** Verified that Patient IDs in the Encounters table matched the master Patient list.
-
-## Data Modeling
-Calculated fields were created to determine:
-- **Length of Stay:** Difference between Stop and Start times.
-- **Cost Post Payer Coverage:** The remaining balance after insurance contributions.
+- **Missing Values:** Handled empty fields by labeling them appropriately(eg 'Unspecified,).
+  
+- Calculated fields were created to determine:
+- **Length of Stay:** Difference between Stop and Start times multiplied by 24 to give give answers in hours.
+- **Cost Post Payer Coverage:** Difference between Total Claim Cost and Payer Coverage.
 - **Re-admission Status:** Categorized based on follow-up encounter patterns.
-- **Age:** Yearfraction between Birth date and Death date. 
-
-## Data Analysis
-Key metrics analyzed include:
+- **Age:** Yearfraction between Birth date and Death date.
+  
+- Key metrics analyzed include:
 - **Patient Volume:** Total count of unique patients.
 - **Financials:** Total Claim Cost and Payer Coverage vs. Out-of-pocket costs.
 - **Demographics:** Analysis of patient distribution by City (e.g., Boston, Quincy, Medford) and Gender.
@@ -58,11 +54,19 @@ Key metrics analyzed include:
 - **Re-admissions by Department:** A bar chart showing that Ambulatory and Urgent Care have the highest re-admission counts.
 - **Total Cost per Department:** A breakdown of revenue generated across different hospital wings.
 - **Payer Distribution:** A pie chart showing the share of claims handled by Medicare, Medicaid, and private payers.
+- **Average cost:** per patient was $108,334.
+- **Average Patient Age:** 72 years (Range: 26 – 104).
+- **Average Length of Stay (LOS):**  7 hours.
+- **Total base encounter cost:**  $3,240,421.
+- **Insurance Coverage:**68.42% of encounters were insured while, 31.58% of encounters were "Uninsured."
 
 ## Key Insights
-- **High Volume Departments:** Ambulatory services account for the largest portion of encounters (over 8,000 re-admissions).
-- **Cost Drivers:** Inpatient and Urgent Care represent a significant portion of the total claim costs despite lower volumes compared to Ambulatory care.
-- **Demographic Trends:** A significant portion of the patient base is concentrated in the Suffolk County/Boston area.
+-  A 30-Day Re-admission Rate 0f 62.51% (encounters that occurred within 30 days of a previous discharge).
+-  Mortality Rate was 15.81%, indicating a high-acuity patient population (patients with severe conditions).
+-  Patients aged 65+ had the highest re-admission rate (64%), representing the hospital’s most vulnerable and resource-intensive segment.
+-  Uninsured encounters showed shorter stay durations.
+-  Total claim cost was $101,514,376 which was more than 10x higher the base encounter costs.
+-  Total payer coverage was $31,097,507, which left a significant uncovered gap of approximately $70 million.
 
 ## Recommendations
 - **Resource Allocation:** Increase staffing in Ambulatory and Urgent Care during peak periods identified in the time-series analysis.
@@ -73,5 +77,6 @@ Key metrics analyzed include:
 The insights derived from the Massachusetts General Hospital dataset provide a roadmap for optimizing department-specific resources and improving patient throughput. By addressing re-admission trends, the hospital can enhance both patient satisfaction and financial stability.
 
 ## 14. Contact Information
+- **Ibeh Chimchetam**
 - **LinkedIn:** [www.linkedin.com/in/ibeh-chimchetam]
 - **Email:** [ibehchimchetam@gmail.com]
