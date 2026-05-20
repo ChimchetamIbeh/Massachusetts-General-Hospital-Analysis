@@ -1,7 +1,5 @@
 # Massachusetts General Hospital Analysis
 
-## Table of Contents
-
 ## Introduction
 In the modern healthcare landscape, understanding patient demographics, encounter types, and cost distributions is vital for improving operational efficiency and patient care outcomes. This project provides a comprehensive analysis of healthcare data from Massachusetts General Hospital using hospital records from year 2011 to 2022  to uncover patterns, and make insightful decisions.
 
@@ -70,9 +68,10 @@ The analysis is based on the **Massachusetts General Hospital Dataset**, consist
 -  Total payer coverage was $31,097,507, which left a significant uncovered gap of approximately $70 million.
 
 ## Recommendations
-- **Resource Allocation:** Increase staffing in Ambulatory and Urgent Care during peak periods identified in the time-series analysis.
-- **Re-admission Strategy:** Investigate the high re-admission rates in the Ambulatory department to determine if post-discharge care protocols need adjustment.
-- **Financial Optimization:** Review the "Cost Post Payer Coverage" to identify if certain demographics are facing higher out-of-pocket burdens.
+- **Monthly KPIs:** - Establish monthly tracking system to monitor headline KPIs (Readmission Rate, LOS, and Cost).
+- **Geriatric Care:** Create a team dedicated specifically to elderly patients in order to reduce their Re-admission rate.
+- **Navigation Team:** Create a team to monitor and follow up patients with three or more unintended visits within 30 days.
+- **Financial Optimization:** Help uninsured patients get covered during their first visits to ensure future visits are paid for and reduce uncompensated care losses.
 
 ## 13. Conclusion
 The insights derived from the Massachusetts General Hospital dataset provide a roadmap for optimizing department-specific resources and improving patient throughput. By addressing re-admission trends, the hospital can enhance both patient satisfaction and financial stability.
