@@ -46,9 +46,9 @@ The analysis is based on the **Massachusetts General Hospital Dataset**, consist
 - **Departmental Performance:** Encounter counts by class (Ambulatory, Emergency, Inpatient, Urgent Care, Wellness).
 
 ## Data Visualization
-![Dashboard Overview](Overview.png)
-![Uploading image.png…](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/e7ebd8ae5a6b69cb4778d25be47131221857ad50/Operational%20Cost.png)
-![Uploading image.png…](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/e7ebd8ae5a6b69cb4778d25be47131221857ad50/Re-Admission%20and%20Length%20of%20Stay.png)
+![Dashboard Overview](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/c0e618aec2f073e6368caa095629f3d1e5f7e1ac/Overview%20page.png)
+![Uploading image.png…](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/c0e618aec2f073e6368caa095629f3d1e5f7e1ac/Operational%20Cost%20page.png)
+![Uploading image.png…](https://github.com/ChimchetamIbeh/Massachusetts-General-Hospital-Analysis/blob/c0e618aec2f073e6368caa095629f3d1e5f7e1ac/Re-Admission%20and%20Length%20of%20Stay%20page.png)
 - **Re-admissions by Department:** A bar chart showing that Ambulatory and Urgent Care have the highest re-admission counts.
 - **Total Cost per Department:** A breakdown of revenue generated across different hospital wings.
 - **Payer Distribution:** A pie chart showing the share of claims handled by Medicare, Medicaid, and private payers.
